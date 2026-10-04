@@ -1,0 +1,24 @@
+# Xcode local state and generated files
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+/ios/.build/
+/ios/TestResults/
+/ios/screenshots/
+/DerivedData/
+/build/
+*.xcresult
+
+# Signing and local credentials
+*.p12
+*.p8
+*.mobileprovision
+.env
+.env.*
+!.env.example
+
+# Python tooling
+__pycache__/
+*.pyc
